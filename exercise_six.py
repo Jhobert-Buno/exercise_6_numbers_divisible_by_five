@@ -9,4 +9,10 @@ def divfive (numbers):
             print(divisible_by_five)
 
 # given list of nubers
+given_list = [10, 20, 33, 46, 55]
+
 # print the result
+print("The given numbers are: ", given_list)
+print("Numbers divisible by five: ")
+divfive(given_list)
+
